@@ -1,0 +1,296 @@
+#Generating source browse information for project Z3LightSoc
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build dmadrv.pbi : index dmadrv.xcl
+build gpiointerrupt.pbi : index gpiointerrupt.xcl
+build sl_sleeptimer.pbi : index sl_sleeptimer.xcl
+build sl_sleeptimer_hal_rtcc.pbi : index sl_sleeptimer_hal_rtcc.xcl
+build sleep.pbi : index sleep.xcl
+build tempdrv.pbi : index tempdrv.xcl
+build ustimer.pbi : index ustimer.xcl
+build em_adc.pbi : index em_adc.xcl
+build em_cmu.pbi : index em_cmu.xcl
+build em_core.pbi : index em_core.xcl
+build em_cryotimer.pbi : index em_cryotimer.xcl
+build em_emu.pbi : index em_emu.xcl
+build em_eusart.pbi : index em_eusart.xcl
+build em_gpio.pbi : index em_gpio.xcl
+build em_i2c.pbi : index em_i2c.xcl
+build em_ldma.pbi : index em_ldma.xcl
+build em_leuart.pbi : index em_leuart.xcl
+build em_msc.pbi : index em_msc.xcl
+build em_prs.pbi : index em_prs.xcl
+build em_rmu.pbi : index em_rmu.xcl
+build em_rtcc.pbi : index em_rtcc.xcl
+build em_se.pbi : index em_se.xcl
+build em_system.pbi : index em_system.xcl
+build em_timer.pbi : index em_timer.xcl
+build em_usart.pbi : index em_usart.xcl
+build em_wdog.pbi : index em_wdog.xcl
+build system_efr32mg13p.pbi : index system_efr32mg13p.xcl
+build adc-efr32.pbi : index adc-efr32.xcl
+build aes-cmac.pbi : index aes-cmac.xcl
+build aes.pbi : index aes.xcl
+build aes_aes.pbi : index aes_aes.xcl
+build aesni.pbi : index aesni.xcl
+build af-event.pbi : index af-event.xcl
+build af-main-common.pbi : index af-main-common.xcl
+build af-main-soc.pbi : index af-main-soc.xcl
+build af-node.pbi : index af-node.xcl
+build af-security-common.pbi : index af-security-common.xcl
+build af-trust-center.pbi : index af-trust-center.xcl
+build antenna-stub.pbi : index antenna-stub.xcl
+build arc4.pbi : index arc4.xcl
+build asn1parse.pbi : index asn1parse.xcl
+build asn1write.pbi : index asn1write.xcl
+build assert-crash-handlers.pbi : index assert-crash-handlers.xcl
+build attribute-size.pbi : index attribute-size.xcl
+build attribute-storage.pbi : index attribute-storage.xcl
+build attribute-table.pbi : index attribute-table.xcl
+build base64.pbi : index base64.xcl
+build basic.pbi : index basic.xcl
+build bignum.pbi : index bignum.xcl
+build blowfish.pbi : index blowfish.xcl
+build bootloader-interface-app.pbi : index bootloader-interface-app.xcl
+build bootloader-interface.pbi : index bootloader-interface.xcl
+build btl_interface.pbi : index btl_interface.xcl
+build btl_interface_storage.pbi : index btl_interface_storage.xcl
+build button.pbi : index button.xcl
+build buzzer-efr32.pbi : index buzzer-efr32.xcl
+build call-command-handler.pbi : index call-command-handler.xcl
+build callback-stub.pbi : index callback-stub.xcl
+build camellia.pbi : index camellia.xcl
+build ccm-star.pbi : index ccm-star.xcl
+build ccm.pbi : index ccm.xcl
+build certs.pbi : index certs.xcl
+build cipher.pbi : index cipher.xcl
+build cipher_wrap.pbi : index cipher_wrap.xcl
+build client-api.pbi : index client-api.xcl
+build cmac.pbi : index cmac.xcl
+build coexistence-802154.pbi : index coexistence-802154.xcl
+build color-control-server.pbi : index color-control-server.xcl
+build com.pbi : index com.xcl
+build command-interpreter2.pbi : index command-interpreter2.xcl
+build core-cli.pbi : index core-cli.xcl
+build coulomb-counter-802154.pbi : index coulomb-counter-802154.xcl
+build counters-cli.pbi : index counters-cli.xcl
+build counters-ota.pbi : index counters-ota.xcl
+build counters-soc.pbi : index counters-soc.xcl
+build crc.pbi : index crc.xcl
+build crypto-state.pbi : index crypto-state.xcl
+build crypto_aes.pbi : index crypto_aes.xcl
+build crypto_ble.pbi : index crypto_ble.xcl
+build crypto_ecp.pbi : index crypto_ecp.xcl
+build crypto_management.pbi : index crypto_management.xcl
+build crypto_sha.pbi : index crypto_sha.xcl
+build cryptoacc_aes.pbi : index cryptoacc_aes.xcl
+build cryptoacc_ccm.pbi : index cryptoacc_ccm.xcl
+build cryptoacc_cmac.pbi : index cryptoacc_cmac.xcl
+build cryptoacc_ecp.pbi : index cryptoacc_ecp.xcl
+build cryptoacc_gcm.pbi : index cryptoacc_gcm.xcl
+build cryptoacc_management.pbi : index cryptoacc_management.xcl
+build cryptoacc_sha.pbi : index cryptoacc_sha.xcl
+build cryptoacc_trng.pbi : index cryptoacc_trng.xcl
+build cstartup-common.pbi : index cstartup-common.xcl
+build ctr_drbg.pbi : index ctr_drbg.xcl
+build debug-jtag-efr32.pbi : index debug-jtag-efr32.xcl
+build debug.pbi : index debug.xcl
+build des.pbi : index des.xcl
+build dhm.pbi : index dhm.xcl
+build diagnostic.pbi : index diagnostic.xcl
+build ecdh.pbi : index ecdh.xcl
+build ecdsa.pbi : index ecdsa.xcl
+build ecjpake.pbi : index ecjpake.xcl
+build ecp.pbi : index ecp.xcl
+build ecp_curves.pbi : index ecp_curves.xcl
+build ember-base-configuration.pbi : index ember-base-configuration.xcl
+build ember-configuration.pbi : index ember-configuration.xcl
+build ember-printf.pbi : index ember-printf.xcl
+build endian.pbi : index endian.xcl
+build entropy.pbi : index entropy.xcl
+build entropy_adc.pbi : index entropy_adc.xcl
+build entropy_poll.pbi : index entropy_poll.xcl
+build entropy_rail.pbi : index entropy_rail.xcl
+build error.pbi : index error.xcl
+build ext-device.pbi : index ext-device.xcl
+build find-and-bind-target-cli.pbi : index find-and-bind-target-cli.xcl
+build find-and-bind-target.pbi : index find-and-bind-target.xcl
+build gcm.pbi : index gcm.xcl
+build green-power-client-cli.pbi : index green-power-client-cli.xcl
+build green-power-client.pbi : index green-power-client.xcl
+build green-power-common.pbi : index green-power-common.xcl
+build groups-server-cli.pbi : index groups-server-cli.xcl
+build groups-server.pbi : index groups-server.xcl
+build hal-config-gpio.pbi : index hal-config-gpio.xcl
+build hal-config.pbi : index hal-config.xcl
+build havege.pbi : index havege.xcl
+build heartbeat.pbi : index heartbeat.xcl
+build hmac_drbg.pbi : index hmac_drbg.xcl
+build identify-cli.pbi : index identify-cli.xcl
+build identify.pbi : index identify.xcl
+build interpan-cli.pbi : index interpan-cli.xcl
+build interpan-soc.pbi : index interpan-soc.xcl
+build interpan.pbi : index interpan.xcl
+build led.pbi : index led.xcl
+build level-control.pbi : index level-control.xcl
+build library.pbi : index library.xcl
+build md.pbi : index md.xcl
+build md2.pbi : index md2.xcl
+build md4.pbi : index md4.xcl
+build md5.pbi : index md5.xcl
+build md_wrap.pbi : index md_wrap.xcl
+build mem-util.pbi : index mem-util.xcl
+build memory_buffer_alloc.pbi : index memory_buffer_alloc.xcl
+build message.pbi : index message.xcl
+build mfg-token.pbi : index mfg-token.xcl
+build micro-common.pbi : index micro-common.xcl
+build micro.pbi : index micro.xcl
+build multi-network.pbi : index multi-network.xcl
+build net_sockets.pbi : index net_sockets.xcl
+build network-cli.pbi : index network-cli.xcl
+build network-creator-cli.pbi : index network-creator-cli.xcl
+build network-creator-security-cli.pbi : index network-creator-security-cli.xcl
+build network-creator-security.pbi : index network-creator-security.xcl
+build network-creator.pbi : index network-creator.xcl
+build network-steering-cli.pbi : index network-steering-cli.xcl
+build network-steering-soc.pbi : index network-steering-soc.xcl
+build network-steering-v2.pbi : index network-steering-v2.xcl
+build network-steering.pbi : index network-steering.xcl
+build nvm3_default.pbi : index nvm3_default.xcl
+build nvm3_hal_flash.pbi : index nvm3_hal_flash.xcl
+build nvm3_lock.pbi : index nvm3_lock.xcl
+build oid.pbi : index oid.xcl
+build on-off.pbi : index on-off.xcl
+build option-cli.pbi : index option-cli.xcl
+build padlock.pbi : index padlock.xcl
+build pem.pbi : index pem.xcl
+build pk.pbi : index pk.xcl
+build pk_wrap.pbi : index pk_wrap.xcl
+build pkcs11.pbi : index pkcs11.xcl
+build pkcs12.pbi : index pkcs12.xcl
+build pkcs5.pbi : index pkcs5.xcl
+build pkparse.pbi : index pkparse.xcl
+build pkwrite.pbi : index pkwrite.xcl
+build plugin-cli.pbi : index plugin-cli.xcl
+build print-formatter.pbi : index print-formatter.xcl
+build print.pbi : index print.xcl
+build process-cluster-message.pbi : index process-cluster-message.xcl
+build process-global-message.pbi : index process-global-message.xcl
+build radioaes.pbi : index radioaes.xcl
+build radioaes_aes.pbi : index radioaes_aes.xcl
+build radioaes_ble.pbi : index radioaes_ble.xcl
+build random.pbi : index random.xcl
+build reporting-cli.pbi : index reporting-cli.xcl
+build reporting-default-configuration.pbi : index reporting-default-configuration.xcl
+build reporting.pbi : index reporting.xcl
+build ripemd160.pbi : index ripemd160.xcl
+build rsa.pbi : index rsa.xcl
+build rsa_internal.pbi : index rsa_internal.xcl
+build scan-dispatch.pbi : index scan-dispatch.xcl
+build scenes-cli.pbi : index scenes-cli.xcl
+build scenes.pbi : index scenes.xcl
+build se_aes.pbi : index se_aes.xcl
+build se_ccm.pbi : index se_ccm.xcl
+build se_cmac.pbi : index se_cmac.xcl
+build se_ecp.pbi : index se_ecp.xcl
+build se_gcm.pbi : index se_gcm.xcl
+build se_jpake.pbi : index se_jpake.xcl
+build se_management.pbi : index se_management.xcl
+build se_sha.pbi : index se_sha.xcl
+build se_trng.pbi : index se_trng.xcl
+build security-address-cache.pbi : index security-address-cache.xcl
+build security-cli.pbi : index security-cli.xcl
+build SEGGER_RTT.pbi : index SEGGER_RTT.xcl
+build serial.pbi : index serial.xcl
+build service-discovery-common.pbi : index service-discovery-common.xcl
+build service-discovery-soc.pbi : index service-discovery-soc.xcl
+build sha1.pbi : index sha1.xcl
+build sha256.pbi : index sha256.xcl
+build sha512.pbi : index sha512.xcl
+build shax.pbi : index shax.xcl
+build simple-main.pbi : index simple-main.xcl
+build sl_mpu.pbi : index sl_mpu.xcl
+build sleep-efm32.pbi : index sleep-efm32.xcl
+build ssl_cache.pbi : index ssl_cache.xcl
+build ssl_ciphersuites.pbi : index ssl_ciphersuites.xcl
+build ssl_cli.pbi : index ssl_cli.xcl
+build ssl_cookie.pbi : index ssl_cookie.xcl
+build ssl_srv.pbi : index ssl_srv.xcl
+build ssl_ticket.pbi : index ssl_ticket.xcl
+build ssl_tls.pbi : index ssl_tls.xcl
+build stack-handler-stub.pbi : index stack-handler-stub.xcl
+build strong-random-api.pbi : index strong-random-api.xcl
+build threading.pbi : index threading.xcl
+build time-util.pbi : index time-util.xcl
+build timing.pbi : index timing.xcl
+build token-def.pbi : index token-def.xcl
+build token.pbi : index token.xcl
+build trng.pbi : index trng.xcl
+build uartdrv.pbi : index uartdrv.xcl
+build update-tc-link-key-cli.pbi : index update-tc-link-key-cli.xcl
+build update-tc-link-key.pbi : index update-tc-link-key.xcl
+build util.pbi : index util.xcl
+build version.pbi : index version.xcl
+build version_features.pbi : index version_features.xcl
+build x509.pbi : index x509.xcl
+build x509_create.pbi : index x509_create.xcl
+build x509_crl.pbi : index x509_crl.xcl
+build x509_crt.pbi : index x509_crt.xcl
+build x509_csr.pbi : index x509_csr.xcl
+build x509write_crt.pbi : index x509write_crt.xcl
+build x509write_csr.pbi : index x509write_csr.xcl
+build xtea.pbi : index xtea.xcl
+build Z3LightSoc_callbacks.pbi : index Z3LightSoc_callbacks.xcl
+build zcl-cli.pbi : index zcl-cli.xcl
+build zdo-cli.pbi : index zdo-cli.xcl
+build zigbee-device-common.pbi : index zigbee-device-common.xcl
+build zigbee-device-library.pbi : index zigbee-device-library.xcl
+build zll-commissioning-cli.pbi : index zll-commissioning-cli.xcl
+build zll-commissioning-common.pbi : index zll-commissioning-common.xcl
+build zll-commissioning-server.pbi : index zll-commissioning-server.xcl
+build zll-identify-server.pbi : index zll-identify-server.xcl
+build zll-level-control-server.pbi : index zll-level-control-server.xcl
+build zll-on-off-server.pbi : index zll-on-off-server.xcl
+build zll-scenes-server.pbi : index zll-scenes-server.xcl
+build zll-utility-server.pbi : index zll-utility-server.xcl
+build znet-bookkeeping.pbi : index znet-bookkeeping.xcl
+build znet-cli.pbi : index znet-cli.xcl
+build Z3LightSoc_part0.pbi : link dmadrv.pbi gpiointerrupt.pbi sl_sleeptimer.pbi sl_sleeptimer_hal_rtcc.pbi sleep.pbi tempdrv.pbi ustimer.pbi em_adc.pbi em_cmu.pbi em_core.pbi em_cryotimer.pbi em_emu.pbi em_eusart.pbi em_gpio.pbi em_i2c.pbi em_ldma.pbi
+build Z3LightSoc_part1.pbi : link em_leuart.pbi em_msc.pbi em_prs.pbi em_rmu.pbi em_rtcc.pbi em_se.pbi em_system.pbi em_timer.pbi em_usart.pbi em_wdog.pbi system_efr32mg13p.pbi adc-efr32.pbi aes-cmac.pbi aes.pbi aes_aes.pbi aesni.pbi
+build Z3LightSoc_part2.pbi : link af-event.pbi af-main-common.pbi af-main-soc.pbi af-node.pbi af-security-common.pbi af-trust-center.pbi antenna-stub.pbi arc4.pbi asn1parse.pbi asn1write.pbi assert-crash-handlers.pbi attribute-size.pbi attribute-storage.pbi attribute-table.pbi base64.pbi basic.pbi
+build Z3LightSoc_part3.pbi : link bignum.pbi blowfish.pbi bootloader-interface-app.pbi bootloader-interface.pbi btl_interface.pbi btl_interface_storage.pbi button.pbi buzzer-efr32.pbi call-command-handler.pbi callback-stub.pbi camellia.pbi ccm-star.pbi ccm.pbi certs.pbi cipher.pbi cipher_wrap.pbi
+build Z3LightSoc_part4.pbi : link client-api.pbi cmac.pbi coexistence-802154.pbi color-control-server.pbi com.pbi command-interpreter2.pbi core-cli.pbi coulomb-counter-802154.pbi counters-cli.pbi counters-ota.pbi counters-soc.pbi crc.pbi crypto-state.pbi crypto_aes.pbi crypto_ble.pbi crypto_ecp.pbi
+build Z3LightSoc_part5.pbi : link crypto_management.pbi crypto_sha.pbi cryptoacc_aes.pbi cryptoacc_ccm.pbi cryptoacc_cmac.pbi cryptoacc_ecp.pbi cryptoacc_gcm.pbi cryptoacc_management.pbi cryptoacc_sha.pbi cryptoacc_trng.pbi cstartup-common.pbi ctr_drbg.pbi debug-jtag-efr32.pbi debug.pbi des.pbi dhm.pbi
+build Z3LightSoc_part6.pbi : link diagnostic.pbi ecdh.pbi ecdsa.pbi ecjpake.pbi ecp.pbi ecp_curves.pbi ember-base-configuration.pbi ember-configuration.pbi ember-printf.pbi endian.pbi entropy.pbi entropy_adc.pbi entropy_poll.pbi entropy_rail.pbi error.pbi ext-device.pbi
+build Z3LightSoc_part7.pbi : link find-and-bind-target-cli.pbi find-and-bind-target.pbi gcm.pbi green-power-client-cli.pbi green-power-client.pbi green-power-common.pbi groups-server-cli.pbi groups-server.pbi hal-config-gpio.pbi hal-config.pbi havege.pbi heartbeat.pbi hmac_drbg.pbi identify-cli.pbi identify.pbi interpan-cli.pbi
+build Z3LightSoc_part8.pbi : link interpan-soc.pbi interpan.pbi led.pbi level-control.pbi library.pbi md.pbi md2.pbi md4.pbi md5.pbi md_wrap.pbi mem-util.pbi memory_buffer_alloc.pbi message.pbi mfg-token.pbi micro-common.pbi micro.pbi
+build Z3LightSoc_part9.pbi : link multi-network.pbi net_sockets.pbi network-cli.pbi network-creator-cli.pbi network-creator-security-cli.pbi network-creator-security.pbi network-creator.pbi network-steering-cli.pbi network-steering-soc.pbi network-steering-v2.pbi network-steering.pbi nvm3_default.pbi nvm3_hal_flash.pbi nvm3_lock.pbi oid.pbi on-off.pbi
+build Z3LightSoc_part10.pbi : link option-cli.pbi padlock.pbi pem.pbi pk.pbi pk_wrap.pbi pkcs11.pbi pkcs12.pbi pkcs5.pbi pkparse.pbi pkwrite.pbi plugin-cli.pbi print-formatter.pbi print.pbi process-cluster-message.pbi process-global-message.pbi radioaes.pbi
+build Z3LightSoc_part11.pbi : link radioaes_aes.pbi radioaes_ble.pbi random.pbi reporting-cli.pbi reporting-default-configuration.pbi reporting.pbi ripemd160.pbi rsa.pbi rsa_internal.pbi scan-dispatch.pbi scenes-cli.pbi scenes.pbi se_aes.pbi se_ccm.pbi se_cmac.pbi se_ecp.pbi
+build Z3LightSoc_part12.pbi : link se_gcm.pbi se_jpake.pbi se_management.pbi se_sha.pbi se_trng.pbi security-address-cache.pbi security-cli.pbi SEGGER_RTT.pbi serial.pbi service-discovery-common.pbi service-discovery-soc.pbi sha1.pbi sha256.pbi sha512.pbi shax.pbi simple-main.pbi
+build Z3LightSoc_part13.pbi : link sl_mpu.pbi sleep-efm32.pbi ssl_cache.pbi ssl_ciphersuites.pbi ssl_cli.pbi ssl_cookie.pbi ssl_srv.pbi ssl_ticket.pbi ssl_tls.pbi stack-handler-stub.pbi strong-random-api.pbi threading.pbi time-util.pbi timing.pbi token-def.pbi token.pbi
+build Z3LightSoc_part14.pbi : link trng.pbi uartdrv.pbi update-tc-link-key-cli.pbi update-tc-link-key.pbi util.pbi version.pbi version_features.pbi x509.pbi x509_create.pbi x509_crl.pbi x509_crt.pbi x509_csr.pbi x509write_crt.pbi x509write_csr.pbi xtea.pbi Z3LightSoc_callbacks.pbi
+build Z3LightSoc_part15.pbi : link zcl-cli.pbi zdo-cli.pbi zigbee-device-common.pbi zigbee-device-library.pbi zll-commissioning-cli.pbi zll-commissioning-common.pbi zll-commissioning-server.pbi zll-identify-server.pbi zll-level-control-server.pbi zll-on-off-server.pbi zll-scenes-server.pbi zll-utility-server.pbi znet-bookkeeping.pbi znet-cli.pbi
+build Z3LightSoc.pbd : link Z3LightSoc_part0.pbi Z3LightSoc_part1.pbi Z3LightSoc_part2.pbi Z3LightSoc_part3.pbi Z3LightSoc_part4.pbi Z3LightSoc_part5.pbi Z3LightSoc_part6.pbi Z3LightSoc_part7.pbi Z3LightSoc_part8.pbi Z3LightSoc_part9.pbi Z3LightSoc_part10.pbi Z3LightSoc_part11.pbi Z3LightSoc_part12.pbi Z3LightSoc_part13.pbi Z3LightSoc_part14.pbi Z3LightSoc_part15.pbi
+build Z3LightSoc.pbw : browsedata Z3LightSoc.pbd
+
+

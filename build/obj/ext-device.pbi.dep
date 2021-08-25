@@ -1,0 +1,168 @@
+ext-device.pbi: \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32\ext-device.c \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform/base/hal/micro/cortexm3/compiler/iar.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdarg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product_string.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include\em_device.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p632f512gm48.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\CMSIS\Include\core_cm4.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\CMSIS\Include/cmsis_version.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\CMSIS\Include/cmsis_compiler.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\CMSIS\Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iccarm_builtin.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\CMSIS\Include/mpu_armv7.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/system_efr32mg13p.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_msc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_emu.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_rmu.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_crypto.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_gpio_p.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_gpio.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_prs_ch.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_prs.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_ldma_ch.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_ldma.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_fpueh.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_gpcrc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_timer_cc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_timer.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_usart.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_leuart.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_letimer.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_cryotimer.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_pcnt.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_i2c.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_adc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_acmp.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_vdac_opa.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_vdac.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_csen.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_lesense_st.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_lesense_buf.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_lesense_ch.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_lesense.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_rtcc_cc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_rtcc_ret.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_rtcc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_rtc_comp.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_rtc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_wdog_pch.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_wdog.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_etm.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_idac.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_smu.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_trng.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_dma_descriptor.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_devinfo.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_romtable.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_prs_signals.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_dmareq.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_af_ports.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\Device\SiliconLabs\efr32mg13p\Include/efr32mg13p_af_pins.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform/base/hal/micro/cortexm3/compiler/interrupts-efm32.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_core.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc/em_common.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc/em_assert.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/generic/compiler/platform-common.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/include/ember-types.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/config/ember-configuration-defaults.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\app/framework/util/config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\Z3LightSoc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\Z3LightSoc_endpoint_config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\app/framework/security/security-config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/include/ember-static-struct.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/include/error.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack\include/error-def.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/include/zll-types.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/include/gp-types.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/hal.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/micro.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/generic/em2xx-reset-defs.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/micro-types.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/cortexm3/micro-features.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/cortexm3/efm32/micro-features.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/micro-common.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/cortexm3/efm32/micro.h \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32/reset-def.h \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32/micro-common.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_gpio.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc/em_bus.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emdrv\common\inc\ecode.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/cortexm3/efm32/nvic-config.h \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32/efr32/nvic-config-series1-config3.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32\config\emlib_config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\hal-config\hal-config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\halconfig\inc\hal-config\hal-config-types.h \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32\ember-hal-config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/plugin/antenna/antenna.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/plugin/adc/adc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/button.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/plugin/buzzer/buzzer.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/crc.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/endian.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/led.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/random.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/serial.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_usart.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\plugin/serial/com.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emdrv\uartdrv\inc\uartdrv.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_leuart.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_eusart.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_cmu.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc/em_gpio.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32\config\uartdrv_config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emdrv\dmadrv\inc\dmadrv.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_ldma.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32\config\dmadrv_config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/cortexm3/usb/em_usb.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/cortexm3/usb/usbconfig.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\uchar.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/include/ember-debug.h \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32\com_device.h \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32/efr32/com_device.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\plugin/serial/com_queue_size.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/spi.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/system-timer.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/bootloader-eeprom.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/token.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/cortexm3/token.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/cortexm3/efm32/mfg-token.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/cortexm3/efm32/token-manufacturing.h \
+  C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\micro\cortexm3\efm32/token-manufacturing-series-1.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\znet-mfg-token.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/config/token-stack.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/config/token-phy.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/zll/zll-token-config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\stack/gp/gp-token-config.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\znet-token.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc/../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.7/protocol/zigbee/app/framework/util/tokens.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\app\framework\..\..\app/framework/include/af-types.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\enums.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\Z3LightSoc_tokens.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc/../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.7/protocol/zigbee/app/framework/plugin/scenes/scenes-tokens.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc/../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.7/protocol/zigbee/app/framework/plugin/reporting/reporting-tokens.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/bootloader-interface.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/bootloader-interface-app.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/bootloader-eeprom.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/bootloader-interface-standalone.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\bootloader\api/btl_interface.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\bootloader\api/btl_errorcode.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\bootloader\api/btl_reset_info.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\bootloader\api/application_properties.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\bootloader\api/btl_interface_parser.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\bootloader\api/btl_interface_storage.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/diagnostic.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal/micro/symbol-timer.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emdrv\gpiointerrupt\inc\gpiointerrupt.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\..\emlib\inc\em_prs.h \
+  C:\Users\alji\SimplicityStudio\v4_workspace\Z3LightSoc\..\..\..\..\..\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.7\platform\base\hal\..\hal/micro/cortexm3/ext-device.h
