@@ -347,7 +347,7 @@ void verify_image(uint8_t *image, size_t image_size, uint8_t *signature, size_t 
     	emberAfCorePrintln("error reading/verifying signature\r\n");
     }
 
-    print_hex(hash,32);
+//    print_hex(hash,32);
 
 
 //    *result = mbedtls_ecdsa_sign(&ecdsa.grp,&r,&s,private_key,hash,32,mbedtls_ctr_drbg_random,&ctr_drbg);
@@ -357,13 +357,13 @@ void verify_image(uint8_t *image, size_t image_size, uint8_t *signature, size_t 
 
     emberAfCorePrintln("result=%d\n",*result);
 
-    emberAfCorePrintln("r:");
+//    emberAfCorePrintln("r:");
 
-    print_hex(&r,32);
+//    print_hex(&r,32);
 
-    emberAfCorePrintln("s:");
+//    emberAfCorePrintln("s:");
 
-    print_hex(&s,32);
+//    print_hex(&s,32);
 
 //    siglen = 71;
 
